@@ -6,7 +6,8 @@ export function createLayout() {
 <button id="back-to-top" class="back-to-top">↑</button>
       <header class="site-header">
         <div class="brand">
-          <div class="brand-icon">🔧</div>
+          <div class="brand-icon">
+          <img src="/logo.png" alt="logo" /></div>
           <div>
             <div class="brand-kicker">Premium Home Tech Services</div>
             <div class="brand-title">Jay Tech Solutions</div>
