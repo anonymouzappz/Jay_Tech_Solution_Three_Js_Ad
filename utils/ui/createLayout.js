@@ -5,14 +5,16 @@ export function createLayout() {
       <div class="page-overlay"></div>
 <button id="back-to-top" class="back-to-top">↑</button>
       <header class="site-header">
-        <div class="brand">
-          <div class="brand-icon">
-          <img src="/logo.png" alt="logo" /></div>
-          <div>
-            <div class="brand-kicker">Premium Home Tech Services</div>
-            <div class="brand-title">Jay Tech Solutions</div>
-          </div>
-        </div>
+       <div class="brand">
+  <div class="brand-icon">
+    <img src="/logo.png" alt="Jay Tech Solutions Logo" />
+  </div>
+
+  <div class="brand-text">
+    <div class="brand-kicker">Premium Home Tech Services</div>
+    <div class="brand-title">Jay Tech Solutions</div>
+  </div>
+</div>
 
         <nav class="site-nav">
           <a href="#services">Services</a>

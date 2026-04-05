@@ -64,48 +64,51 @@ body {
 .brand {
   display: flex;
   align-items: center;
-  gap: 14px;
+  gap: 12px;
 }
 
-.brand-icon,
-.panel-icon {
-  display: grid;
-  place-items: center;
-  width: 48px;
-  height: 48px;
-  border-radius: 18px;
-}
-
+/* Logo container */
 .brand-icon {
-  background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(12px);
-  border: 1px solid rgba(255, 255, 255, 0.12);
-  font-size: 22px;
+  width: 42px;
+  height: 42px;
+  border-radius: 12px;
+  overflow: hidden;
+
+  /* glass look */
+  background: rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(10px);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.brand-kicker,
-.panel-kicker,
-.card-label {
-  font-size: 13px;
-  color: rgba(255, 255, 255, 0.6);
+/* Logo image */
+.brand-icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain; /* prevents stretching */
 }
 
+/* Text wrapper */
+.brand-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.1;
+}
+
+/* Small top text */
 .brand-kicker {
-  font-size: 12px;
-  letter-spacing: 0.28em;
-  text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.58);
+  font-size: 11px;
+  color: rgba(255, 255, 255, 0.6);
+  letter-spacing: 0.6px;
 }
 
-.brand-title,
-.panel-title,
-.card-value {
-  color: #fff;
-  font-weight: 700;
-}
-
+/* Main title */
 .brand-title {
-  font-size: 18px;
+  font-size: 15px;
+  font-weight: 700;
+  color: #fff;
 }
 
 .music-btn,
