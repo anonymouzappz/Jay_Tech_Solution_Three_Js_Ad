@@ -10,18 +10,19 @@
     "start": "parcel index.html --open"
   },
   "devDependencies": {
-    "@babel/core": "7.2.0",
+    "@babel/core": "7.24.4",
     "parcel-bundler": "^1.6.1",
-    "vite": "^4.0.0"
+    "vite": "^5.2.10"
   },
   "dependencies": {
-    "@babel/runtime": "^7.20.7",
+    "@babel/runtime": "^7.24.4",
     "dat.gui": "^0.7.9",
-    "imports-loader": "^4.0.1",
+    "imports-loader": "^5.0.0",
     "jthreebsp": "^1.0.0",
-    "postprocessing": "^6.29.3",
-    "reset-css": "5.0.1",
-    "three": "^0.148.0",
+    "npm-check-updates": "^16.14.18",
+    "postprocessing": "^6.35.3",
+    "reset-css": "5.0.2",
+    "three": "^0.163.0",
     "three-nebula": "^10.0.3",
     "three-particle-fire": "^0.1.0",
     "threebsp": "^1.0.4"
