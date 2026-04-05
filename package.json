@@ -5,13 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "parcel build index.html",
-    "preview": "vite preview",
-    "start": "parcel index.html --open"
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "devDependencies": {
-    "@babel/core": "7.24.4",
-    "parcel-bundler": "^1.6.1",
     "vite": "^5.2.10"
   },
   "dependencies": {
