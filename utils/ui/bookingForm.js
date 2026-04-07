@@ -36,7 +36,7 @@ ${message}
 `;
 
     // ✅ encode for safe URL
-    const mailtoLink = `mailto:anonymouzappz@gmail.com?subject=${encodeURIComponent(
+    const mailtoLink = `mailto:jpolo239@gmail.com?subject=${encodeURIComponent(
       subject
     )}&body=${encodeURIComponent(body)}`;
 

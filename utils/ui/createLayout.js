@@ -451,20 +451,35 @@ export function createLayout() {
       </main>
 
       <footer class="site-footer">
-        <div class="footer-brand">
-          <div class="brand-title">Jay Tech Solutions</div>
-          <div class="footer-text">
-            Professional TV mounting, smart home installation, camera setup,
-            audio installs, and clean wire concealment.
-          </div>
-        </div>
+  <div class="footer-content">
 
-        <div class="footer-links">
-          <a href="#services">Services</a>
-          <a href="#gallery">Gallery</a>
-          <a href="#booking">Booking</a>
-          <a href="tel:12398495607">Call</a>
-        </div>
+    <div class="footer-brand">
+      <div class="brand-title">Jay Tech Solutions</div>
+      <div class="footer-text">
+        Professional TV mounting, smart home installation, camera setup,
+        audio installs, and clean wire concealment.
+      </div>
+    </div>
+
+    <div class="footer-links">
+      <a href="#services">Services</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#booking">Booking</a>
+      <a href="tel:12398495607">Call</a>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <div class="footer-copy">
+      © 2026 Jay Tech Solutions. All rights reserved.
+    </div>
+
+    <div class="footer-dev">
+  Developed by <a href="https://anonymouzappz.net" target="_blank">Anonymouz Appz</a>
+</div>
+  </div>
+</footer>
       </footer>
     </div>
   `;
